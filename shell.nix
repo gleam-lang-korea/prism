@@ -1,8 +1,8 @@
 { pkgs ? import <nixpkgs> {} }:
 
 let
-  erlang = pkgs.beam.interpreters.erlang_25;
-  elixir = pkgs.beam.packages.erlang_25.elixir;
+  erlang = pkgs.beam.interpreters.erlang_27;
+  elixir = pkgs.beam.packages.erlang_27.elixir;
   gleam = pkgs.gleam;
 in
 pkgs.mkShell {
